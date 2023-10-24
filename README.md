@@ -1,9 +1,8 @@
-# TIME-SEA-PLUS
+# chatgpt-open
 
 基于 SpringBoot3 开发的 Ai 多功能项目,支持(H5,Web,微信小程序) 此项目为长期维护更新项目 有什么问题可以直接在微信群问或者留下你的 issues
 两个端 可自行选择性部署 也可两个都部署(推荐做法)
 
-[![GitHub release](https://img.shields.io/static/v1?label=release&message=v2.4&color=blue)](<[https://www.github.com/novicezk/midjourney-proxy](https://github.com/dulaiduwang003/TIME-SEA-PLUS)>)
 [![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
 
 
@@ -32,25 +31,12 @@ sh init.sh # 选择3
 如果之前有数据数据的，执行脚本选择4，然后将备份文件(在/root根目录中)存在本地，可卸载mysql和redis或者直接重装系统，等部署完后再导入
 ```
 
-## 如果你不喜欢一键部署方式 请按照以下视频部署(喂饭级)
-视频地址:  https://www.bilibili.com/video/BV1E8411v7fr/
-
-视频所用的笔记:
-https://note.youdao.com/s/QY9qWQv
-
-后端部署图文(可以看看)
-https://note.youdao.com/s/MZgdKiEl 
-
-小程序部署图文(可以看看)
-https://note.youdao.com/s/W2Et1NXD
-
-web部署太简单了 跟着视频来就行
 
 #### 快速体验
 
 ##### 小程序 演示
 
-<img style="width:200px;height:200px" src="https://github.com/dulaiduwang003/TIME-SEA-PLUS/assets/87460202/dac39061-6104-4ce2-b631-506eee27dca8" />
+<img style="width:200px;height:200px" src="https://github.com/CCzhiyun/chatgpt-open/assets/87460202/dac39061-6104-4ce2-b631-506eee27dca8" />
 
 ` web 演示`
 
@@ -107,7 +93,7 @@ https://anchwngb.cn/
 `项目部署时一定要先在本地部署一遍 如果不会部署 请联系作者微信:SeatimeIsland `
 `后端部署不挑环境 硬性要求为 MYSQL8 Redis7 JDK17即可 `
 `前端代码直接使用微信开发者工具打开 请使用导入功能`
-`另外可以进微信群 一起讨论项目部署 或者 以及其他编程学术类问题` 
+`另外可以进微信群 一起讨论项目部署 或者 以及其他编程学术类问题`
 `部署问题请在群里提问 代码问题业务问题才向群主反馈`
 
 
@@ -118,26 +104,20 @@ npm install
 ```
 
 `前端配置在于 uitls/env.js中 可用VSCODE 或者 Websotrm 或 HBuilder动态修改`
-<img src="https://github.com/dulaiduwang003/TIME-SEA-PLUS/assets/87460202/eb7fa337-72ee-436a-9452-b1b6930f477c" style="width:800px;height:400px" />
+<img src="https://github.com/CCzhiyun/chatgpt-open/assets/87460202/eb7fa337-72ee-436a-9452-b1b6930f477c" style="width:800px;height:400px" />
 
 `注意把manifest.json中的 appid替换为自己的微信APPID`
-<img src="https://github.com/dulaiduwang003/TIME-SEA-PLUS/assets/87460202/4f9286f4-d37d-4800-81a1-90e113827927" style="width:800px;height:400px" />
+<img src="https://github.com/CCzhiyun/chatgpt-open/assets/87460202/4f9286f4-d37d-4800-81a1-90e113827927" style="width:800px;height:400px" />
 
 `如何运行到微信开发者小程序呢? 使用HBuilder打开此项目 如何随便点击里面一个文件(必须,否则Hbuider无法识别项目)`
 
-![image](https://github.com/dulaiduwang003/TIME-SEA-PLUS/assets/87460202/3f95d5e8-29ec-4099-8df5-3ab459277354)
+![image](https://github.com/CCzhiyun/chatgpt-open/assets/87460202/3f95d5e8-29ec-4099-8df5-3ab459277354)
 
 `使用HBuilder打开源码后如图所示(此图操作只是运行到微信小程序,如果通过这种方式上传到微信小程序正式版 代码包是没有压缩的,所以如果你要发布正式版本则选择发行按钮 跟着操作来就行,另外再发行前 请先把原有的unpackage目录删除 再点击发行 之后就可以上传至体验或者正式,如果你只需本地调试则 直接运行即可)`
 
-<img src="https://github.com/dulaiduwang003/TIME-SEA-PLUS/assets/87460202/22b1699b-3202-48d3-8f67-2a09d0408f52" style="width:800px;height:400px" />
+<img src="https://github.com/CCzhiyun/chatgpt-open/assets/87460202/22b1699b-3202-48d3-8f67-2a09d0408f52" style="width:800px;height:400px" />
 
 `请注意在微信公众平台中 把https wss 阿里oss域名 开启白名单校验`
-
-如需二开项目请注意遵循开源规则 个人开发不易 如果你喜欢这个项目 请你动动小手给此项目点个 star 吧 😁 欢迎各位大佬一起维护此项目
-
-请作者喝一杯 coffee😁
-
-<img src="https://github.com/dulaiduwang003/TIME-SEA-PLUS/assets/87460202/cb81e952-b28a-4688-a9e2-b61290e489bf" style="width:300px;height:300px" />
 
 ## 关于请求 429 问题
 
@@ -211,13 +191,8 @@ ghcr.io/songquanpeng/one-api:v0.5.5-alpha.4
 
 ```
 
-` 后端部署参考笔记 https://note.youdao.com/s/MZgdKiEl`
-` 小程序部署参考笔记 https://note.youdao.com/s/W2Et1NXD`
-` web部分太简单了 npm install 之后修改env配置打包上传即可 `
-
 ## web 端 todo
 
-- 完善 B 站喂饭级别教程
 - [完成]完善 docker 镜像，以及快速部署教程
 - [完成]密码重置
 - [完成]移动端管理员页面兼容适配
